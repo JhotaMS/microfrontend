@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "commons-lib": [
+        "./dist/commons-lib"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -22,5 +27,31 @@
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/mfshell/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/mfshell/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mftenantexampleuno/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/mftenantexampleuno/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mftenantexampledos/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/mftenantexampledos/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/commons-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/commons-lib/tsconfig.spec.json"
+    }
+  ]
 }
