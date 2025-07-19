@@ -1,11 +1,11 @@
 import {  Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CommonsLib } from 'commons-lib';
+import { Policyholder } from 'commons-lib';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonsLib],
+  imports: [RouterOutlet, Policyholder],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 

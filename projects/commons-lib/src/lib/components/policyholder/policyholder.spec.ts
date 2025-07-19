@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CommonsLib } from './commons-lib';
+import { Policyholder } from './policyholder';
 
-describe('CommonsLib', () => {
-  let component: CommonsLib;
-  let fixture: ComponentFixture<CommonsLib>;
+describe('Policyholder', () => {
+  let component: Policyholder;
+  let fixture: ComponentFixture<Policyholder>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CommonsLib]
+      imports: [Policyholder]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CommonsLib);
+    fixture = TestBed.createComponent(Policyholder);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
