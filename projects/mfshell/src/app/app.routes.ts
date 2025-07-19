@@ -5,9 +5,14 @@ export const routes: Routes = [
 
   // Add this route:
   {
-    path: '',
+    path: 'mftenantexampleuno',
     loadComponent: () =>
       loadRemoteModule('mftenantexampleuno', './Component').then((m) => m.AppComponent),
+  },
+  {
+    path: 'mftenantexampledos',
+    loadComponent: () =>
+      loadRemoteModule('mftenantexampledos', './Component').then((m) => m.AppComponent),
   },
 
   /*{
